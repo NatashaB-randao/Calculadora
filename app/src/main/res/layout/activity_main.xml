@@ -153,10 +153,11 @@
             style="@style/Numbers_Button"
             android:text="0"/>
 
-        <TextView
+        <ImageView
             android:id="@+id/backSpace"
             style="@style/Numbers_Button"
-            android:text="backSpace"/>
+            android:src="@drawable/backspace"
+            android:scaleType="center"/>
 
         <TextView
             android:id="@+id/igual"
